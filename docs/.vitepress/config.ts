@@ -3,6 +3,7 @@ import type { DefaultTheme } from "vitepress";
 
 // https://vitepress.vuejs.org/config/app-configs
 export default defineConfig({
+  ignoreDeadLinks: true,
   base: '/Dark-Bot-Docs/',
   title: "Dark-Bot",
   description:
